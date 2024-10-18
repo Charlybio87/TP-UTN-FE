@@ -47,7 +47,7 @@ i{
 
 @media screen and ( width <= 320px) {
   .container{
-    width: 320px;
+    width: 100%;
   }
   body{
     background-color: yellowgreen;
