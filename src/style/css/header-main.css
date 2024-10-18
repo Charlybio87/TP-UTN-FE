@@ -1,0 +1,64 @@
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media (width > 320px ) and (width <= 2000px) {
+  .scrolled {
+    height: 90px;
+  }
+  .btn-menu{
+    display: none;
+  }
+  .header_nav_scrolled{
+    display: flex;
+    gap: 410px;
+    height: 90px;
+  }
+  .logo_scrolled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_scrolled img{
+    height: 80px;
+  }
+
+  .article-info{
+    position: relative;
+    top: -250px;
+  }
+  .box-sponsor{
+    position: relative;
+    top: -250px;
+  }
+}  
+@media (width <= 320px ) {
+  .box-container_header .nav_sup{
+    display: none;
+  }
+  .item-menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-menu{
+    border: 1px solid transparent;
+    background-color: transparent;
+  }
+  .ul-menu{
+    position: relative;
+    left: -286px;
+    top: 70px;
+    background-color: black;
+  }
+  .ul-menu ul{
+    width: 318px;
+  }
+    .article-info{
+    position: relative;
+    top: -286px;
+  }
+
+}
