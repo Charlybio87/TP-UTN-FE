@@ -46,8 +46,12 @@ const Main = () => {
               </div>
               <div className='main-info-text-1 main-info-p'>
                 <h2>La Escuela de Baristas</h2>
-                <p>Primer centro de formación de Baristas profesionales de Navarra</p>
-                <p>Desde 2016, los profesionales de la hostelería navarra y aspirantes a Baristas han pasado por el <strong>Aula de La Escuela de Baristas</strong>, poniendo en práctica la filosofía y saber hacer de Amilka Lee, nuestro formador que, desde 2021, imparte los cursos oficiales de la <strong>Specialty Coffee Association</strong>.</p>
+                <p>
+                  Primer centro de formación de Baristas profesionales de Navarra.
+                </p>
+                <p>
+                  Desde 2016, los profesionales de la hostelería navarra y aspirantes a Baristas han pasado por el <strong>Aula de La Escuela de Baristas</strong>, poniendo en práctica la filosofía y saber hacer de Amilka Lee, nuestro formador que, desde 2021, imparte los cursos oficiales de la <strong>Specialty Coffee Association</strong>.
+                </p>
                 <span><a href="https://laescueladebaristas.com/el-aula/" className='btn-link'>DESCUBRE EL AULA DE FORMACIÓN</a></span>
               </div>
             </div>

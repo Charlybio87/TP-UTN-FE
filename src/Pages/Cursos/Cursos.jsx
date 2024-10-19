@@ -1,7 +1,7 @@
 import React from 'react'
 import { Footer, Header } from '../../Components/Home'
 import useProducts from '../../hooks/useProducts'
-// import '../../style/css/curses.css'
+import '../../style/css/curses.css'
 import { Link } from 'react-router-dom'
 
 const Cursos = () => {
@@ -17,7 +17,7 @@ const Cursos = () => {
         <main className='container-curses'>
         {
           objeto.isLoading
-            ? <h2>Cargando...</h2>
+            ? <h2 className='cargando'>Cargando...</h2>
             : <div> 
               {
                 objeto.products.map((producto)=>{

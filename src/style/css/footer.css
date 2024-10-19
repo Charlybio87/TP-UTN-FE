@@ -36,7 +36,7 @@
     width: 98%;
     background-color: transparent;
     border: 1px solid transparent;
-    border-bottom: 1px solid #F7F7F7;
+    border-bottom: 1px solid #404040;
   }
   .box-mail-suscrib{
     width: 100%;
@@ -69,6 +69,9 @@
     padding: 36px 36px 0 36px;
     background-color: black;
   }
+  .separador hr{
+    border: 1px solid #404040;
+  }
   .box-footer-info{
     display: flex;
     flex-direction: row;
@@ -82,6 +85,9 @@
     flex-direction: column;
     width: 546px;
     height: 204px;
+  }
+  .box-footer-info-left p{
+    margin-top: 18px;
   }
   .box-footer-info-right{
     display: flex;
