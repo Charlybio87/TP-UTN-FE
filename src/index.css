@@ -36,19 +36,19 @@ i{
   text-align: left;
 }
 
-@media ( max-width: 2000px) {
-  /* .container{
+@media (width > 320px) and ( width <= 2000px) {
+  .container{
     width: 2000px;
-  } */
+  }
   main{
     background-color: yellow;
   }
 }
 
-@media ( max-width: 320px) {
-  /* .container{
+@media ( width<= 320px) {
+  .container{
     width: 320px;
-  } */
+  }
   body{
     background-color: yellowgreen;
   }
