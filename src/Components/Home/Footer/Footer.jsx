@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../../img/lg-footer-la-escuela-de-baristas-ok.png'
+import logo from '../../../Img/lg-footer-la-escuela-de-baristas-ok.png'
 
 const Footer = () => {
   return (
