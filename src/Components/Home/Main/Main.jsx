@@ -1,8 +1,8 @@
 import React from 'react'
-import slider1 from '../../../img/Slider-1-la-escuela-de-baristas.jpg'
+import slider1 from '../../../../public/img/Slider-1-la-escuela-de-baristas.jpg'
 import Sponsors from './Sponsors'
-import img_coffe1 from '../../../img/home-1-la-escuela-de-baristas-1.png'
-import img_coffe2 from '../../../img/home-2-la-escuela-de-baristas.png'
+import img_coffe1 from '../../../../public/img/home-1-la-escuela-de-baristas-1.png'
+import img_coffe2 from '../../../../public/img/home-2-la-escuela-de-baristas.png'
 
 const Main = () => {
   return (
