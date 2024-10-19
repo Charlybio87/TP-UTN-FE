@@ -11,7 +11,7 @@
     max-width: 100%;
   }
   .article-info{
-    background-image: url(../../img/fondo-la-escuela.svg);
+    background-image: url(../../../public/img/fondo-la-escuela.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
