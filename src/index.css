@@ -45,7 +45,7 @@ i{
   }
 }
 
-@media ( width <= 320px) {
+@media ( max-width: 320px) {
   .container{
     width: 320px;
   }
