@@ -36,7 +36,7 @@ i{
   text-align: left;
 }
 
-@media (width > 320px) and ( width <= 2000px) {
+@media ( max-width: 2000px) {
   .container{
     width: 2000px;
   }
