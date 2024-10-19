@@ -45,7 +45,7 @@ i{
   }
 }
 
-@media screen and ( width<= 320px) {
+@media ( width <= 320px) {
   .container{
     width: 320px;
   }
