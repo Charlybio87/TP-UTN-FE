@@ -1,4 +1,4 @@
-@media (width > 320px ) and (width <= 2000px) {
+@media screen and (min-width: 1440px ) and (max-width: 2000px) {
 .box-container_main{
     width: 100%;
     height: 2656px;
@@ -7,8 +7,7 @@
     overflow: hidden;
   }
   .article-carrusel img{
-    width: 100%;
-    max-width: 100%;
+    width: 2000px;
   }
   .article-info{
     background-image: url(../../../public/img/fondo-la-escuela.svg);
@@ -112,7 +111,7 @@
     margin: 30px 0;
   }
 }
-@media (width <= 320px ) {
+@media screen and (max-width: 320px ) {
   .box-container_main{
     width: 100%;
     height: 2138px;

@@ -1,6 +1,5 @@
-@media (width > 320px ) and (width <= 2000px) {
+@media screen and (min-width: 1440px ) and (max-width: 2000px) {
 .container-curses {
-    width: 2000px;
     background-color: white;
     color: black;
     margin-top: 134px;
@@ -54,7 +53,7 @@
   .container-coursePage{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 100px;
     width: 1320px;
     margin: 0 340px;
     padding: 108px 32px;
@@ -98,7 +97,7 @@
     margin: 0;
   }
 }
-@media (width <= 320px ) {
+@media screen and (max-width: 320px ) {
   .container-curses{
     margin-top: 85px;
     background-color: white;

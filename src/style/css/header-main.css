@@ -3,9 +3,9 @@ header {
   z-index: 1000;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
 }
-@media (width > 320px ) and (width <= 2000px) {
+@media screen and (min-width: 1440px  ) and (max-width: 2000px) {
   .scrolled {
     height: 90px;
   }
@@ -14,8 +14,13 @@ header {
   }
   .header_nav_scrolled{
     display: flex;
-    gap: 410px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     height: 90px;
+  }
+  .nav_sup{
+    padding-right: 250px;
   }
   .logo_scrolled {
     display: flex;
@@ -35,7 +40,7 @@ header {
     top: -250px;
   }
 }  
-@media (width <= 320px ) {
+@media screen and (max-width: 320px ) {
   .box-container_header .nav_sup{
     display: none;
   }
