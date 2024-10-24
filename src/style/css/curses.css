@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px ) and (max-width: 2000px) {
+@media screen and (min-width: 769px ) and (max-width: 2560px) {
 .container-curses {
     background-color: white;
     color: black;
@@ -97,7 +97,10 @@
     margin: 0;
   }
 }
-@media screen and (max-width: 320px ) {
+/* @media screen and  (min-width: 330px) and (max-width: 1440px){
+
+} */
+@media screen and (min-width: 300px ) and (max-width: 768px ) {
   .container-curses{
     margin-top: 85px;
     background-color: white;

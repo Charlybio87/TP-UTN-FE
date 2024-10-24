@@ -3,9 +3,10 @@ header {
   z-index: 1000;
   top: 0;
   left: 0;
-  /* width: 100%; */
+  min-width: 100%;
+  background-color: black;
 }
-@media screen and (min-width: 1440px  ) and (max-width: 2000px) {
+@media screen and (min-width: 769px  ) and (max-width: 2560px) {
   .scrolled {
     height: 90px;
   }
@@ -39,8 +40,8 @@ header {
     position: relative;
     top: -250px;
   }
-}  
-@media screen and (max-width: 320px ) {
+}
+@media screen and (min-width: 300px ) and (max-width: 768px) {
   .box-container_header .nav_sup{
     display: none;
   }
@@ -61,9 +62,4 @@ header {
   .ul-menu ul{
     width: 318px;
   }
-    .article-info{
-    position: relative;
-    top: -286px;
-  }
-
 }

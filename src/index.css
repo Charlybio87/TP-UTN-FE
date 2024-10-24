@@ -37,17 +37,18 @@ i{
   text-align: left;
 }
 
-@media screen and (min-width: 1440px) and ( max-width: 2000px) {
+@media screen and (min-width: 769px) and ( max-width: 2560px) {
   main{
     background-color: yellow;
   }
 }
 
-@media screen and (max-width: 320px ) {
-  body{
-    background-color: yellowgreen;
+/* @media screen and  (min-width: 768px) and (max-width: 1440px){
+  main{
+    background-color: blueviolet;
   }
-
+} */
+@media screen and (min-width: 300px ) and (max-width: 768px) {
   main{
     background-color: #535bf2;
   }

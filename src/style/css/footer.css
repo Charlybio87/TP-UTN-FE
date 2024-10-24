@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px ) and (max-width: 2000px) {
+@media screen and (min-width: 769px ) and (max-width: 2560px) {
   footer{
     background-color: black;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
   }
   .box-footer{
-    width: 1316px;
+    width: 100%;
     margin: 0 342px 0 342px;
     padding: 36px 36px 0 36px;
     background-color: black;
@@ -14,7 +14,6 @@
     justify-content: center;
   }
   .box-footer-suscrib{
-    width: 1247px;
     height: 150px;
     display: flex;
     justify-content: space-between;
@@ -63,7 +62,7 @@
     border: 1px solid transparent;
   }
   .separador{
-    width: 1316px;
+    width: 100%;
     margin: 0 342px 0 342px;
     padding: 36px 36px 0 36px;
     background-color: black;
@@ -75,7 +74,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1316px;
+    width: 100%;
     margin: 0 342px 0 342px;
     padding: 36px 36px 0 36px;
   }
@@ -117,7 +116,7 @@
     color: #CCCCCC;
   }
   .box-footer-creditos{
-    width: 1316px;
+    width: 100%;
     margin: 0 342px 0 342px;
     padding: 27px 36px 27px 36px;
     background-color: black;
@@ -125,7 +124,7 @@
     justify-content: space-between;
   }
   .box-footer-creditos-info{
-    width: 888px;
+    width: 100%;
     height: 53px;
   }
   .box-footer-creditos a{
@@ -133,7 +132,10 @@
     color: #CCCCCC;
   }
 }
-@media screen and (max-width: 320px ) {
+/* @media screen and  (min-width: 768px) and (max-width: 1440px){
+
+} */
+@media screen and (min-width: 300px ) and (max-width: 768px) {
   .container_footer{
     width: 100%;
     padding: 50px 36px 0 36px;
